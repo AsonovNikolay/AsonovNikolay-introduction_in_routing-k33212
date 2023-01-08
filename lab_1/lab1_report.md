@@ -75,6 +75,9 @@ Date of finished:
 
 2. Пинги с крайних устройств
 
+![изображение](https://user-images.githubusercontent.com/71010958/208067538-a1885118-9ad5-4d39-841d-d6c8484bed8d.png)
+
+![изображение](https://user-images.githubusercontent.com/71010958/208067752-ec5f4795-2360-40f4-96b6-05b23c870b0f.png)
 
 
 

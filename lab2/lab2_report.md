@@ -179,6 +179,12 @@ Date of finished:
 
 3. Примеры пингов, проверка работоспособности сети
 
+![изображение](https://user-images.githubusercontent.com/71010958/208070116-8d7f4013-b269-4ef0-849f-57f02bb0b9e4.png)
+
+![изображение](https://user-images.githubusercontent.com/71010958/208070217-d6c3d166-524b-4560-a2cd-2c0f7f84291c.png)
+
+![изображение](https://user-images.githubusercontent.com/71010958/208070358-ffa05180-2bc6-434d-8ee4-50881a436ac8.png)
+
 
 
 ### Вывод
