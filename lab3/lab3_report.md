@@ -29,7 +29,7 @@ Date of finished:
 
 1) Роутер R01.SPB
 
-'''
+```
 /interface bridge
 add name=EoMPLS
 add name=Lo0
@@ -63,11 +63,11 @@ add interface=ether3
 add area=backbone
 /system identity
 set name=R01.SPB
-'''
+```
 
 2) Роутер R01.MSK
 
-'''
+```
 /interface bridge
 add name=Lo0
 /interface wireless security-profiles
@@ -90,10 +90,10 @@ add interface=ether4
 add area=backbone
 /system identity
 set name=R01.MSK
-'''
+```
 
 3) Роутер R01.HKI
-'''
+```
 /interface bridge
 add name=Lo0
 /interface wireless security-profiles
@@ -118,11 +118,11 @@ add interface=ether4
 add area=backbone
 /system identity
 set name=R01.HKI
-'''
+```
 
 
 4) Роутер R01.LND
-'''
+```
 /interface bridge
 add name=Lo0
 /interface wireless security-profiles
@@ -145,10 +145,10 @@ add interface=ether4
 add area=backbone
 /system identity
 set name=R01.LND
-'''
+```
 
 5) Роутер R01.LBN
-'''
+```
 /interface bridge
 add name=Lo0
 /interface wireless security-profiles
@@ -173,12 +173,12 @@ add interface=ether4
 add area=backbone
 /system identity
 set name=R01.LBN
-'''
+```
 
 
 6) Роутер R01.NY
 
-'''
+```
 /interface bridge
 add name=EoMPLS
 add name=Lo0
@@ -212,12 +212,12 @@ add interface=ether3
 add area=backbone
 /system identity
 set name=R01.NY
-'''
+```
 
 
 
 7) Сервер SGI_Prism
-'''
+```
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
 /ip address
@@ -229,10 +229,10 @@ add disabled=no interface=ether1
 add distance=1 gateway=192.168.20.1
 /system identity
 set name=SGI_Prism
-'''
+```
 
 8) Компьютер PC1
-'''
+```
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
 /ip address
@@ -244,12 +244,17 @@ add disabled=no interface=ether1
 add distance=1 gateway=192.168.150.1
 /system identity
 set name=PC1
-'''
+```
 
 После этого проверим таблицу маршрутизации на роутере:
+![изображение](https://user-images.githubusercontent.com/71010958/212198027-79dd5f38-cc18-4873-a81d-48c0e6b465da.png)
 
 
-Также проверим информацию об mpls отметках с помощью команды "tool trace ip-R01.SPB":
+Также проверим информацию об mpls отметках с помощью команды "tool trace {R01.SPB ip}":
+
+![изображение](https://user-images.githubusercontent.com/71010958/212198303-6f3d5870-1a53-43ee-882c-8ea437ca863f.png)
+
+
 
 
 
