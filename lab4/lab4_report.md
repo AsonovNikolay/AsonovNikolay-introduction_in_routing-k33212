@@ -242,6 +242,10 @@ set name=R01.SPB
 
 
 ### Проверка BGP и VRF ###
+![изображение](https://user-images.githubusercontent.com/71010958/212212003-bc0c3cd5-2ba9-4ca9-ab22-8c2f0615ac9d.png)
+![изображение](https://user-images.githubusercontent.com/71010958/212212049-2b8cab67-f2ac-4b94-9228-03d6ee99256b.png)
+![изображение](https://user-images.githubusercontent.com/71010958/212212096-edda2d9c-cf38-465b-b136-513320bcc95c.png)
+
 
 
 
